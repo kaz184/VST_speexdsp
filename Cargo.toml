@@ -1,0 +1,14 @@
+[package]
+name = "rust_vst"
+version = "0.1.0"
+authors = ["Kazuaki Kameyama <k.kazuaki19930225@gmail.com>"]
+
+[dependencies]
+vst = { git = "https://github.com/rust-dsp/rust-vst" }
+dlopen = "0.1.5"
+dlopen_derive = "0.1.3"
+libc = "0.2.43"
+itertools = "0.7.8"
+
+[lib]
+crate-type = ["cdylib"]
